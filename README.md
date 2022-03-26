@@ -32,4 +32,4 @@ Mocaawesome html report will be genarted upon tests
 
 
 
-# Note : Please check the attached video 
+# Note : Please check the attached video SoumTestRecordVideo.mov in project directory
