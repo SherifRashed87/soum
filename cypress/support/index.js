@@ -19,3 +19,6 @@
 
 // Alternatively you can use CommonJS syntax:
 //require('./commands')
+module.exports = (on, config) => {
+    require('cypress-mochawesome-reporter/plugin')(on);
+};

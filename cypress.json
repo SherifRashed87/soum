@@ -16,7 +16,7 @@
   },
   "reporter": "cypress-mochawesome-reporter",
   "reporterOptions": {
-    "reportDir": "cypress/htmlreport",
+    "reportDir": "cypress/report/mochawesome-report",
     "charts": true,
     "overwrite": false,
     "showPending": false,
