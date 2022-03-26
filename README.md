@@ -4,13 +4,13 @@
 Cypress with Cucumber
 
 # Cover Test Cases
-Verify add/delete element
-Verify basic authentication
-Verify horizontal slider
-Verify JS alert
-Verify JS confirm
-Verify JS prompt
-Verify Dropdown
+- Verify add/delete element
+- Verify basic authentication
+- Verify horizontal slider
+- Verify JS alert
+- Verify JS confirm
+- Verify JS prompt
+- Verify Dropdown
 
 # How To Run The Test
 # 1- GitHub Actions
