@@ -60,3 +60,10 @@ Feature: Automate Selected Elements
       | element | text |
       | /javascript_alerts | soum |
 
+  Scenario Outline: Verify Dropdown
+    When Select element <element>
+    Then Select <option> from drop down
+    Examples:
+      | element | option |
+      | /dropdown | Option 2 |
+

@@ -76,5 +76,9 @@ Then(/^Click and enter text in prompt js (.+?)$/, function (text) {
   landingPageSteps.enterTextInPrompt(text);
 });
 
+Then(/^Select (.+?) from drop down$/, function (option) {
+  landingPageSteps.selectFromDropdown(option);
+});
+
 
 

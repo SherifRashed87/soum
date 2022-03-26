@@ -13,7 +13,12 @@ const locators = {
     windowConfirm: 'window:confirm',
     resultJS: '#result',
     jsConfirm: 'Click for JS Confirm',
-    jsPrompt: 'Click for JS Prompt'
+    jsPrompt: 'Click for JS Prompt',
+    dropDown: '#dropdown',
+    selectOption: '#dropdown > option:nth-child(1)',
+    optionOne: '#dropdown > option:nth-child(2)',
+    optionTwo: '#dropdown > option:nth-child(3)',
+    defaultOption: 'Please select an option'
 
 };
 export class LandingPage{
@@ -99,5 +104,12 @@ export class LandingPage{
             cy.contains(locators.jsPrompt).click()
         })
     }
+
+    selectFromDropdown(option) {
+        cy.get('select'+locators.dropDown+' option:selected').should('have.text', locators.defaultOption)
+        cy.get(locators.dropDown).should('be.visible').select(option)
+        cy.get('select'+locators.dropDown+' option:selected').should('have.text', option)
+    }
+
 
 }
