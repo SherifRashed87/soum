@@ -23,9 +23,10 @@ Link : https://github.com/SherifRashed87/soum/actions/workflows/main.yml
 - run npm install
 - run npm test
 
-To run using cypress : cypress run
-To run on chrome : cypress run --browser chrome
-To run on firefox: cypress run --browser firefox
+# more run
+- To run using cypress : cypress run
+- To run on chrome : cypress run --browser chrome
+- To run on firefox: cypress run --browser firefox
 
 # Report
 Mocaawesome html report will be genarted upon tests
