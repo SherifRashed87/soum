@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://the-internet.herokuapp.com/",
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+  "experimentalStudio": true,
+  "viewportHeight": 720,
+  "viewportWidth": 1440,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "video": false,
+  "experimentalSessionSupport": true,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/htmlreport",
+    "charts": true,
+    "overwrite": false,
+    "showPending": false,
+    "showSkipped": true
+  },
+  "env": {
+    "grepFilterSpecs": true,
+    "grepOmitFiltered": true
+  }
+}
